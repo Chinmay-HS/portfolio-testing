@@ -17,8 +17,8 @@ import {
   Variant,
 } from 'motion/react';
 import { createPortal } from 'react-dom';
-import { cn } from '@/lib/utils';
-import useClickOutside from '@/hooks/useClickOutside';
+import { cn } from '../../lib/utils';
+import useClickOutside from '../../hooks/useClickOutside';
 import { XIcon } from 'lucide-react';
 
 interface MorphingDialogContextType {
